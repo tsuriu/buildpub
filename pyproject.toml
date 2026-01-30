@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "buildpub"
-version = "0.1.0"
+version = "0.1.1"
 description = "A simple Docker image builder and publisher"
 readme = "README.md"
 authors = [{ name = "Tulio Amancio" }]
