@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buildpub"
+version = "0.1.0"
+description = "A simple Docker image builder and publisher"
+readme = "README.md"
+authors = [{ name = "Tulio Amancio" }]
+license = { text = "MIT" }
+dependencies = [
+    "GitPython>=3.1.41",
+    "docker>=6.1.3",
+    "loguru>=0.7.2",
+    "urllib3<2.0.0",
+    "requests==2.31.0"
+]
+requires-python = ">=3.9"
+
+[project.scripts]
+buildpub = "buildpub.main:main"
