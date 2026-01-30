@@ -39,13 +39,13 @@ If you want to contribute or modify the code:
    ```
 
 ### Option 2: Install as a System Command (Recommended)
-You can install this tool globally (or in your user environment) to run it from anywhere.
+You can install this tool globally using `pipx` to run it from anywhere in an isolated environment.
 
-1. **Install via pip**:
+1. **Install via pipx**:
    ```bash
-   pip install .
+   pipx install buildpub
    ```
-   *(Run this inside the directory containing `pyproject.toml`)*
+   *Note: If you receive a warning about PATH, run `pipx ensurepath` to fix it.*
 
 2. **Run it from anywhere**:
    ```bash
