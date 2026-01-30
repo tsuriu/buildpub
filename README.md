@@ -22,14 +22,18 @@ It seamlessly integrates with your Git workflow, supporting both remote reposito
 
 ## 🛠️ Installation
 
-### Option 1: Development Usage (Virtual Env)
-1. Set up the environment:
+### Option 1: Development Usage
+If you want to contribute or modify the code:
+
+1. **Set up the Environment**:
    ```bash
    python3 -m venv .venv
    source .venv/bin/activate
-   pip install -e .
+   
+   # Install runtime + dev dependencies
+   pip install -e .[dev]
    ```
-2. Run directly:
+2. **Run directly**:
    ```bash
    buildpub
    ```

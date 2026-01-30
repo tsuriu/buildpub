@@ -1,0 +1,12 @@
+# Build & Publish
+build
+twine
+
+# Testing
+pytest
+
+# Linting & Formatting
+black
+isort
+flake8
+mypy
